@@ -1,7 +1,7 @@
 body{
     height: 600px;
     width: 100%;
-    background-color: rgb(119, 186, 186);
+    background-color: rgb(148 210 210 / 35%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,9 +50,14 @@ body{
     border-radius: 7px;
     border: solid 0.5px;
     height: 33px;
-    background-color:rgb(119 186 186 / 35%);
+    background-color:rgb(181 230 230 / 23%);
     width: 110px;
     cursor: pointer;
+    transition: 500ms;
+}
+
+.footer-des button:hover{
+    background-color:rgb(181 230 230 / 70%);
 }
 
 .input-temp{
